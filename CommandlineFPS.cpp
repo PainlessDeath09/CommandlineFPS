@@ -172,7 +172,7 @@ int main()
 			else if (fDistanceToWall < fDepth / 2.0f)		nShade = 0x2592;
 			else if (fDistanceToWall < fDepth)				nShade = 0x2591;
 			else											nShade = ' ';		// Too far away
-
+ 
 			if (bBoundary)		nShade = ' '; // Black it out
 			
 			for (int y = 0; y < nScreenHeight; y++)
